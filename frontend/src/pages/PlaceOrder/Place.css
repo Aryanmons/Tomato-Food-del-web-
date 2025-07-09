@@ -1,0 +1,91 @@
+.place-order {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.place-order-left {
+  flex: 1;
+  max-width: 500px;
+}
+
+.place-order-title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.place-order-left input {
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.place-order-left input:focus {
+  border-color: #ff6347;
+}
+
+.multi-fields {
+  display: flex;
+  gap: 20px;
+}
+
+.multi-fields input {
+  flex: 1;
+}
+
+.placeorder-right {
+  flex: 1;
+  max-width: 400px;
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cart-total h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.cart-total-details {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.cart-total-details b {
+  font-size: 18px;
+  color: #000;
+}
+
+.placeorder-right button {
+  margin-top: 30px;
+  width: 100%;
+  padding: 14px;
+  background-color: #ff6347;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.placeorder-right button:hover {
+  background-color: #e5533d;
+}
